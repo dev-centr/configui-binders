@@ -7,8 +7,8 @@ Binders consume `flattenFormRows` from link:https://github.com/dev-centr/uniconf
 
 [cols="1,2"]
 |===
-| `configui-dlangui` | Legacy dlangui binder (ConfigUI 0.1 default).
-| `configui-dui` | **Primary** D desktop target — dui/dew (stub).
+| `configui-dlangui` | Legacy dlangui binder (`dub build -c dlangui-legacy` on the app).
+| `configui-dui` | **Primary** D desktop binder — dui/dew form + banner widgets.
 | `configui-qt` | Qt 6 widget binder (stub).
 | `configui-gtk` | GTK 4 binder (stub).
 | `configui-avalonia` | Avalonia (.NET) binder (stub).
