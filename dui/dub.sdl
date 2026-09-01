@@ -1,0 +1,12 @@
+name "configui-dui"
+description "ConfigUI form binder for dui/dew (stub — primary desktop target)"
+version "0.1.0"
+authors "DevCentr"
+license "MIT"
+
+targetType "library"
+sourcePaths "source"
+importPaths "source"
+
+dependency "uniconfig-core" path="../../uniconfig-core"
+# dependency "dui" path="../../dlang-supplemental/dui"  # enable when binder lands

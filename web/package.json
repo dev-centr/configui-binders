@@ -1,0 +1,20 @@
+{
+  "name": "@dev-centr/configui-web",
+  "version": "0.1.0",
+  "description": "Solid + TypeScript ConfigUI form binder for the web",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./solid": "./src/ConfigForm.tsx"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.9.0"
+  },
+  "devDependencies": {
+    "solid-js": "^1.9.9",
+    "typescript": "^5.8.2"
+  }
+}
