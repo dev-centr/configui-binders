@@ -17,3 +17,8 @@
 !avalonia/**
 !web/
 !web/**
+!/.github/
+!/.github/workflows/
+!/.github/workflows/encoding-guard.yml
+!/.editorconfig
+!/.gitattributes
